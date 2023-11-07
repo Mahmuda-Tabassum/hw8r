@@ -1,0 +1,165 @@
+/* common css start */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* common css end */
+
+/*nav section start */
+
+nav {
+    width: 100%;
+    background-color: #02918c;
+    position: fixed;
+}
+
+nav .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li a {
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffff;
+    padding: 19px 25px;
+    display: inline-block;
+    transition: .5s;
+}
+
+nav ul li a:hover {
+    color: #cfc91d;
+}
+
+/* nav section end */
+
+/*  banner section start  */
+
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/banner.png);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    padding: 90px;
+    padding-top: 209px;
+}
+
+#banner .container h3 {
+    font-size: 30pt;
+    color: #ffff;
+}
+
+#banner .container h1 {
+    font-size: 68px;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+#banner .container p {
+    font-size: 18 pt;
+    color: #ffff;
+}
+
+#banner .container a {
+    color: black;
+    display: inline-block;
+    background-color: #cfc91d;
+    padding: 23px 97px;
+    letter-spacing: 5px;
+    font-size: 14pt;
+    transition: 0.5s;
+}
+
+#banner .container a:hover {
+    background-color: #7e8287;
+    transform: scale(1.1);
+}
+
+/* banner section end  */
+
+/* About section start */
+
+.about_me {
+    text-align: center;
+}
+
+.about_me h2 {
+    font-size: 46px;
+    font-weight: 800px;
+    text-transform: uppercase;
+    color: #02918c;
+    margin-top: 99px;
+}
+
+.about_me p {
+    font-size: 16px;
+    color: #7e8287;
+    line-height: 24px;
+    margin: 34px 0;
+    margin-bottom: 84px;
+}
+
+#about .about_card {
+    width: 25%;
+    border-right: #7e8287 1px solid;
+    text-align: center;
+    padding: 41px;
+    color: #7e8287;
+    margin-bottom: 98px;
+}
+
+#about .about_card h4 {
+    font-weight: 800;
+    font-size: 16px;
+    margin: 36px 0;
+}
+
+#about .about_card i {
+    color: #02918c;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+#about .about_card p {
+    font-size: 11px;
+    line-height: 16.5px;
+}
+
+#about .about_card:last-child {
+    border: none;
+}
+
